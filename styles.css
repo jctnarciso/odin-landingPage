@@ -11,7 +11,7 @@ ul {
 .navbar-container,
 .header-container {
     background-color: #1F2937;
-    padding: 8px 96px;
+    padding: 8px 128px;
 }
 
 .header-container {
@@ -40,8 +40,8 @@ ul {
 }
 
 .img-box {
-    width: 300px;
-    height: 200px;
+    width: 400px;
+    height: 300px;
     background-color: salmon;
 }
 
@@ -67,4 +67,26 @@ ul {
 .hero-secondary-text {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.content {
+    text-align: center;
+    padding: 48px 128px;
+}
+
+.box-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box-with-text {
+    width: 150px;
+}
+
+.blue-box {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #3882F6;
+    border-radius: 25px;
 }
