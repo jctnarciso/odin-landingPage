@@ -49,13 +49,17 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     gap: 32px;
 }
 
-/* .header-left {
-    max-width: 60%;
-} */
+.header-left {
+    width: 40%;
+}
+
+.header-left {
+    flex: 1 1 auto;
+}
 
 .hero-main-text {
     font-size: 48px;
@@ -78,6 +82,7 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .box-with-text {
