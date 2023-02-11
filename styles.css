@@ -138,11 +138,15 @@ ul {
     background-color: #3882F6;
     padding: 48px 64px;
     border-radius: 16px;
+    flex-wrap: wrap;
+    gap: 8px;
 }
 
 .action-text {
     font-size: 18px;
     color: #E5E7EB;
+    width: 60%;
+    flex: 1 1 auto;
 }
 
 .action-text p {
@@ -160,4 +164,5 @@ ul {
     border-radius: 15px;
     font-weight: bold;
     padding: 16px 24px;
+    margin: auto;
 }
